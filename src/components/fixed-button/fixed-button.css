@@ -1,0 +1,42 @@
+
+.button-container, .button-container * {
+    box-sizing: border-box;
+}
+
+.button-container {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    border-top: 1px solid rgba(23, 23, 23, 0.08);
+    background: #FFF;
+}
+
+.button {
+    display: flex;
+    padding: 12px 48px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
+    border-radius: 24px;
+    background: #485AA3;
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.34px;
+    text-transform: uppercase;
+}

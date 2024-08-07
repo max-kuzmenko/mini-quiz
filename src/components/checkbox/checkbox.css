@@ -1,0 +1,40 @@
+
+.checkbox, .checkbox * {
+    box-sizing: border-box;
+}
+
+.checkbox {
+    display: flex;
+    width: 1em;
+    height: 1em;
+    flex-basis: 1em;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #b8b8b8;
+    border-radius: 50%;
+    font-size: 24px;
+    transition: 0.3s ease-in-out;
+
+    cursor: pointer;
+}
+
+.checkbox.square {
+    border-radius: 4px;
+}
+
+.checkbox.checked {
+    border-color: #171717;
+    background-color: #171717 !important;
+}
+
+.checkbox.checked .checkicon {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.checkicon {
+    font-size: 0.67em;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: transform 0.2s ease-out 0.1s;
+}

@@ -1,0 +1,48 @@
+
+.summary, .summary * {
+    box-sizing: border-box;
+}
+
+.summary {
+    display: flex;
+    padding: 24px 12px;
+    width: 100%;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(23, 23, 23, 0.08);
+    background: #FFF    ;
+}
+
+.summary .item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.summary .item h2 {
+    color: rgba(23, 23, 23, 0.72);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.summary .item p {
+    color: #171717;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
