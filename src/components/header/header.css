@@ -1,0 +1,33 @@
+
+.header, .header * {
+    box-sizing: border-box;
+}
+
+.header {
+    height: 56px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #FFF;
+    border-bottom: 1px solid rgba(23, 23, 23, 0.08);
+}
+
+.icon {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+}
+
+.header .text {
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    color: #171717;
+    font-family: Gilroy;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}

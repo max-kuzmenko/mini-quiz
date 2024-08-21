@@ -1,0 +1,25 @@
+
+
+.option, .option * {
+    box-sizing: border-box;
+}
+
+.option {
+    display: flex;
+    min-height: 72px;
+    max-height: 112px;
+    padding: 16px;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 1px solid #EFF1F4;
+
+    border-radius: 16px;
+    background: #FFF;
+}
+
+.option .active {
+    border: 1px solid #EFF1F4;
+    background: #EFF1F4;
+}
